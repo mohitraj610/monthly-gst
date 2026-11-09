@@ -1,0 +1,175 @@
+{
+  "gstin": "29ABCDE1234F1ZW",
+  "rtnprd": "102026",
+  "docdata": {
+    "b2b": [
+      {
+        "ctin": "27ABCDE1234F1Z0",
+        "trdnm": "Fictional supplier",
+        "inv": [
+          {
+            "inum": "INV-1001",
+            "dt": "2026-10-01",
+            "val": "1180",
+            "pos": "29",
+            "rev": "N",
+            "itcavl": "Y",
+            "items": [
+              {
+                "txval": "1000",
+                "igst": "180",
+                "cgst": "0",
+                "sgst": "0",
+                "cess": "0"
+              }
+            ]
+          },
+          {
+            "inum": "INV-1002",
+            "dt": "2026-10-01",
+            "val": "1180",
+            "pos": "29",
+            "rev": "N",
+            "itcavl": "Y",
+            "items": [
+              {
+                "txval": "1000",
+                "igst": "180",
+                "cgst": "0",
+                "sgst": "0",
+                "cess": "0"
+              }
+            ]
+          },
+          {
+            "inum": "INV-1003",
+            "dt": "2026-10-01",
+            "val": "1180",
+            "pos": "29",
+            "rev": "N",
+            "itcavl": "Y",
+            "items": [
+              {
+                "txval": "1000",
+                "igst": "180",
+                "cgst": "0",
+                "sgst": "0",
+                "cess": "0"
+              }
+            ]
+          },
+          {
+            "inum": "INV-1004",
+            "dt": "2026-10-01",
+            "val": "1180",
+            "pos": "29",
+            "rev": "N",
+            "itcavl": "Y",
+            "items": [
+              {
+                "txval": "1000",
+                "igst": "180",
+                "cgst": "0",
+                "sgst": "0",
+                "cess": "0"
+              }
+            ]
+          },
+          {
+            "inum": "INV-1006",
+            "dt": "2026-10-01",
+            "val": "1180",
+            "pos": "29",
+            "rev": "N",
+            "itcavl": "Y",
+            "items": [
+              {
+                "txval": "1000",
+                "igst": "180",
+                "cgst": "0",
+                "sgst": "0",
+                "cess": "0"
+              }
+            ]
+          },
+          {
+            "inum": "INV-1008",
+            "dt": "2026-10-01",
+            "val": "1180",
+            "pos": "29",
+            "rev": "N",
+            "itcavl": "Y",
+            "items": [
+              {
+                "txval": "1000",
+                "igst": "180",
+                "cgst": "0",
+                "sgst": "0",
+                "cess": "0"
+              }
+            ]
+          },
+          {
+            "inum": "INV-1009",
+            "dt": "2026-10-01",
+            "val": "1180",
+            "pos": "29",
+            "rev": "N",
+            "itcavl": "N",
+            "items": [
+              {
+                "txval": "1000",
+                "igst": "180",
+                "cgst": "0",
+                "sgst": "0",
+                "cess": "0"
+              }
+            ]
+          },
+          {
+            "inum": "ANNUAL-01",
+            "dt": "2026-10-01",
+            "val": "1180",
+            "pos": "29",
+            "rev": "N",
+            "itcavl": "Y",
+            "items": [
+              {
+                "txval": "1000",
+                "igst": "180",
+                "cgst": "0",
+                "sgst": "0",
+                "cess": "0"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cdnr": [
+      {
+        "ctin": "27ABCDE1234F1Z0",
+        "nt": [
+          {
+            "dt": "2026-10-01",
+            "val": "236",
+            "pos": "29",
+            "rev": "N",
+            "itcavl": "Y",
+            "items": [
+              {
+                "txval": "200",
+                "igst": "36",
+                "cgst": "0",
+                "sgst": "0",
+                "cess": "0"
+              }
+            ],
+            "ntty": "C",
+            "nt_num": "CN-1007"
+          }
+        ]
+      }
+    ]
+  }
+}
