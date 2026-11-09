@@ -1,6 +1,6 @@
 # Monthly GST · filing preparation preview
 
-A local Windows workspace for comparing a purchase register with GSTR-2B and preparing a monthly GST review pack. It keeps invoice differences, GSTR-3B Table 4 working figures and original evidence together for the business and its accountant.
+Monthly GST is an MIT-licensed Windows app for monthly GST filing preparation in India. It reconciles a purchase register in CSV or Excel with GST Portal GSTR-2B JSON and helps small businesses and accountants review GSTR-3B Table 4 input tax credit figures. It exports Excel working papers with invoice differences and the original evidence. [Windows releases](https://github.com/mohitraj610/monthly-gst/releases)
 
 **Version 0.2 is a filing preparation preview for regular monthly returns.** Check the results against original invoices and the GST Portal before relying on them for a return. The preview has been tested on fictional data. Validation against real Tally and portal exports and independent accountant review are pending.
 
@@ -18,6 +18,16 @@ $env:PYTHONPATH = 'backend'
 ```
 
 To use a different port or storage folder, pass `--port 8766 --data-dir .local/other-business-data`.
+
+## Evaluate or reuse the code
+
+Start with the fictional purchase register and GSTR-2B statement. The walkthrough gives expected results for a tax head mismatch, a duplicate, an ITC flag and a Table 4 difference. It works with sample data and requires no GST Portal account. [Sample files](examples/) · [Walkthrough and expected results](docs/FIRST-TEST.md)
+
+| Task | Source |
+| --- | --- |
+| Check supported CSV, Excel and GSTR-2B JSON inputs | [Import code](backend/monthly_gst/imports.py) · [Import tests](tests/test_imports.py) |
+| Understand invoice matching and monetary comparisons | [Reconciliation code](backend/monthly_gst/domain.py) · [Reconciliation tests](tests/test_engine.py) |
+| Inspect Table 4 calculations and working paper exports | [Filing review](backend/monthly_gst/filing.py) · [Report generation](backend/monthly_gst/reports.py) · [Filing tests](tests/test_filing.py) |
 
 ## What works
 
